@@ -1,0 +1,218 @@
+/* Header Part Start */
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(255, 227, 227);
+}
+
+
+
+
+header{
+    width: 100%;
+    background-color: rgb(108, 29, 29);
+    color: white;
+    display: flex;
+}
+
+
+
+
+.logo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 17px;
+    margin-top: 8px;
+    padding: 10px;
+    
+}
+
+
+
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.nav ul{
+    list-style: none;
+    
+}
+
+
+
+.nav ul li{
+    background-color: rgb(214, 68, 68);
+    width: 150px;
+    border: solid rgb(255, 255, 255) 1px;
+    height: 38px;
+    line-height: 39px;
+    text-align: center;
+    float: left;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+
+}
+
+
+.nav ul li a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    
+}
+
+
+
+.nav ul li:hover{
+  background-color: rgb(255, 0, 162);
+  transition: all ease-in 0.4s;
+}
+
+
+
+.nav .ser{
+    line-height: 18px;
+    font-size: 15px;
+}
+
+
+.nav ul ul{
+    display: none;
+}
+
+.nav ul li:hover > ul{
+    display: block;
+}
+/* Header Part End */
+
+
+
+
+
+
+
+
+
+
+
+
+/* Form part start */
+
+.form1{
+    background-color: crimson;
+    color: white;
+    text-align: center;
+    font-size: 27px;
+    margin: 0 auto;
+    width: fit-content;
+    height: fit-content;
+    padding: 30px 40px;
+    margin-top: 30px;
+    border-radius: 7%;
+    
+    box-shadow: 0 6px 9px 0  rgba(0, 0, 0, 0.3), 
+     6px 0 9px 0 rgba(0, 0, 0, 0.3) ;
+   
+}
+
+.form1 input{
+    padding: 4px 30px;
+    border-color: rgb(255, 111, 0);
+    border-radius: 40px;
+}
+
+.form1 .btn{
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Form part end */
+
+
+
+
+
+
+
+
+
+
+
+/* Footer part start */
+
+footer{
+    width: 100%;
+    
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    background-color: rgb(62, 43, 43);
+    color: white;
+    
+
+}
+
+.copy{
+    margin-top: 10px;
+}
+
+.fname h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 37px;
+
+}
+
+.ftext p{
+  text-align: center;
+  width: 600px;
+  margin: 0 auto;
+  position: relative;
+  top: -20px;
+}
+
+.icon i{
+      font-size: 35px;
+      position: relative;
+      top: -15px;
+      padding: 10px;
+}
+
+.copy{
+    height: 40px;
+    width: 100%;
+    background-color: rgb(48, 31, 31);
+    line-height: 40px;
+    font-size: 17px;
+}
+
+
+.nav{
+    padding-left: 260px;
+}
+
+
+/* Footer Part End */
+
+
+
+
